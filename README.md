@@ -11,17 +11,19 @@ separate document with this submission. Data sources, physics and
 verification are the team's own; see "How it was checked" below and
 `THIRD_PARTY_NOTICES.md`.
 
-Live page: [PROJECT LINK]   Video: [VIDEO URL]
+## How to run the tool (30 seconds)
 
-## Open it
+1. Click the file **Lunar Landing Site Navigator.html** in the list above.
+2. Click the **download icon** (Download raw file) at the top right of the file view.
+3. Open the downloaded file in Chrome, Edge or Firefox. It is one file and works offline, with no install and no internet needed.
 
-Download `index.html` (35 MB) and open it in Chrome or Edge. Works offline. No install.
+Demo deck (7 slides): https://docs.google.com/presentation/d/1t-ev6i6ErL7YIrNG3gZPH8swWYC6LuJR/edit?usp=sharing
 
 Check you have the exact file:
 
 - Size: 34,998,820 bytes
 - SHA-256: `dac8b3e64b4cf5223c2949a6f94855a8df25d19c84cb6b46f0520f6fc38db0e7`
-- Windows: `certutil -hashfile index.html SHA256`  Linux: `sha256sum index.html`
+- Windows: `certutil -hashfile "Lunar Landing Site Navigator.html" SHA256`
 
 Without a graphics card the 3D view is slower but works.
 
@@ -66,7 +68,7 @@ on NASA LOLA 5 m terrain.
 
 | File or folder | What it holds |
 |---|---|
-| `index.html` | The finished tool. The whole project in one file: the Moon view, planner, calendar, power and comms tabs, the data and the physics. |
+| `Lunar Landing Site Navigator.html` | The finished tool. The whole project in one file: the Moon view, planner, calendar, power and comms tabs, the data and the physics. |
 | `README.md` | This page. |
 | `INSTALL.md` | Beginner steps to rebuild the page (quick build and full build). |
 | `LICENSE` | MIT licence. |
