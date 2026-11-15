@@ -9,7 +9,7 @@ AI Assistance (Claude, by Anthropic) used for comparing it for validation of
 actual data. A full list of AI tools used on this project is provided as a
 separate document with this submission. Data sources, physics and
 verification are the team's own; see "How it was checked" below and
-`THIRD_PARTY_NOTICES.md`.
+`THIRD PARTY NOTICES.md`.
 
 ## How to run the tool (30 seconds)
 
@@ -72,7 +72,7 @@ on NASA LOLA 5 m terrain.
 | `README.md` | This page. |
 | `INSTALL.md` | Beginner steps to rebuild the page (quick build and full build). |
 | `LICENSE` | MIT licence. |
-| `THIRD_PARTY_NOTICES.md` | Every NASA data set, library and credit, with links. |
+| `THIRD PARTY NOTICES.md` | Every NASA data set, library and credit, with links. |
 | `requirements.txt` | Python packages with exact versions. |
 | `check_inputs.py` | Prints OK or MISSING for each input file, so a newcomer sees what to download. |
 | `.gitignore`, `.gitattributes` | Git settings (files to skip, line endings). |
@@ -88,7 +88,7 @@ Data: NASA LRO/LOLA (PGDA), NASA LROC / Arizona State University, NASA Scientifi
 Visualization Studio (CGI Moon Kit), NASA Earth Observatory (Blue Marble), NASA JPL
 (Horizons, Deep Space Network handbook). Library: astronomy-engine 2.1.19 by Don Cross (MIT).
 Formulas: Jean Meeus, *Astronomical Algorithms*, ch. 53; solar constant from Kopp and Lean (2011).
-Full list: `THIRD_PARTY_NOTICES.md`.
+Full list: `THIRD PARTY NOTICES.md`.
 
 ## Licence
 
