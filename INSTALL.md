@@ -49,8 +49,8 @@ Each prints a version number. If `python` opens the Microsoft Store instead, ins
 
 ```
 cd %USERPROFILE%
-git clone [REPOSITORY LINK]
-cd lunar-landing-site-navigator
+git clone https://github.com/venkateshchhangani/Lunar-Landing-Site-Navigator.git
+cd Lunar-Landing-Site-Navigator
 ```
 
 (Or download the repository as a ZIP from GitHub, unzip it, and `cd` into the folder.)
