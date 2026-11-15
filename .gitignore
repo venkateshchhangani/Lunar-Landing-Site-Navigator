@@ -1,0 +1,8 @@
+node_modules/
+index25.html
+__pycache__/
+*.tif
+*.tiff
+*.IMG
+*.npz
+!exp2/dem*.b64

@@ -1,0 +1,42 @@
+{
+ "01": [
+  {
+   "n": "A",
+   "circle": "High",
+   "cell": "Medium",
+   "strict": "Medium"
+  },
+  {
+   "n": "B",
+   "circle": "High",
+   "cell": "Medium",
+   "strict": "Medium"
+  },
+  {
+   "n": "C",
+   "circle": "Medium",
+   "cell": "Medium",
+   "strict": "Medium"
+  }
+ ],
+ "04": [
+  {
+   "n": "A",
+   "circle": "Medium",
+   "cell": "Medium",
+   "strict": "Medium"
+  },
+  {
+   "n": "B",
+   "circle": "Medium",
+   "cell": "Medium",
+   "strict": "Medium"
+  },
+  {
+   "n": "C",
+   "circle": "Medium",
+   "cell": "Medium",
+   "strict": "Medium"
+  }
+ ]
+}
