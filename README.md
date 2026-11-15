@@ -1,6 +1,6 @@
 # Lunar Landing Site Navigator
 
-NASA Space Apps Challenge 2026. Team: [TEAM NAME] ([MEMBER NAMES]).
+NASA Space Apps Challenge 2026. Team: HERMES POLARIS (Venkatesh Chhangani).
 
 One offline web page that shows the Sun, the Earth, power and radio windows
 for landing spots at the Moon's south pole, in plain words.
