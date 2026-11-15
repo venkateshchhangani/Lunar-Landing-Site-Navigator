@@ -7,24 +7,24 @@ There are two ways to get the page:
 
 | Way | What you get | Time | Needs |
 |---|---|---|---|
-| **A. Just open it** | The finished page `index.html` | 1 minute | Chrome or Edge |
+| **A. Just open it** | The finished page `Lunar Landing Site Navigator.html` | 1 minute | Chrome or Edge |
 | **B. Quick build** | The same page, rebuilt from the ready-made data packs in this repository | about 10 minutes | Python, Node.js |
 | **C. Full build** | Everything recomputed from NASA's raw data | several hours, about 15 GB of downloads | B, plus the NASA files in Part 3 |
 
 ## A. Just open it
 
-1. Download `index.html` (35 MB) from this repository.
+1. Download `Lunar Landing Site Navigator.html` (35 MB) from this repository.
 2. Double-click it. It opens in Chrome or Edge. It works offline.
 3. Optional check that you have the exact file:
 
 ```
-certutil -hashfile index.html SHA256
+certutil -hashfile "Lunar Landing Site Navigator.html" SHA256
 ```
 
 The answer must be `dac8b3e64b4cf5223c2949a6f94855a8df25d19c84cb6b46f0520f6fc38db0e7`.
 The file size is 34,998,820 bytes.
 
-## B. Quick build (rebuild index.html from this repository)
+## B. Quick build (rebuild the tool file from this repository)
 
 ### B1. Install the programs (once)
 
@@ -90,7 +90,7 @@ It prints `34.998662 MB` and writes `index25.html` in `work\src`. Check it:
 certutil -hashfile index25.html SHA256
 ```
 
-The answer should be `dac8b3e64b4cf5223c2949a6f94855a8df25d19c84cb6b46f0520f6fc38db0e7`, the same as `index.html`. `build25.py` explicitly opens every text file it reads and writes with `encoding='utf-8'`, and writes `index25.html` with `newline='\n'`, so Windows's default encoding guesses and CRLF conversion don't change the result. This has been verified with a real build run on Windows (Python 3.11.9, Node 24.21.0), cold, from a fresh copy of this repository, with no `PYTHONUTF8` or other environment variable set — it reproduced this exact hash.
+The answer should be `dac8b3e64b4cf5223c2949a6f94855a8df25d19c84cb6b46f0520f6fc38db0e7`, the same as `Lunar Landing Site Navigator.html`. `build25.py` explicitly opens every text file it reads and writes with `encoding='utf-8'`, and writes `index25.html` with `newline='\n'`, so Windows's default encoding guesses and CRLF conversion don't change the result. This has been verified with a real build run on Windows (Python 3.11.9, Node 24.21.0), cold, from a fresh copy of this repository, with no `PYTHONUTF8` or other environment variable set — it reproduced this exact hash.
 
 ## What the quick build needs (all in this repository)
 
@@ -250,7 +250,7 @@ cd ..
 
 ### C11. Build the page
 
-Do B6 again. A full rebuild may differ slightly from `index.html` if NASA changed a file; the page is then checked by its tests, not by its hash.
+Do B6 again. A full rebuild may differ slightly from `Lunar Landing Site Navigator.html` if NASA changed a file; the page is then checked by its tests, not by its hash.
 
 ## Which program needs what
 
